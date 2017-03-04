@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@font-face {
+    font-family: hkgroteskbold;
+    src: url(../hk-grotesk/HKGrotesk-Bold.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4;
+	background-image:url("../img/vancouver-bw.jpg");
+	background-size: auto 100%;
+
+}
+
+#page-wrap {
+	width: 760px;
+	background: white;
+	margin: 30px auto;
+	padding: 30px;
+}
+
+.inside_columns{
+	width: 60%;
+    height: 100%;
+    padding-left: 20%;
+    color:#4B4099;
+}
+.hello{
+	font-size: 45px;
+	padding-top: 35vh;
+	font-family: Montserrat;
+	letter-spacing: 1.2;
+}
+p.intro{
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1.5;
+	font-family: hkgroteskbold;
+}
+
+p {
+	font-size: 1.5em;
+	margin: 30px 0;
+}
+
+#nav-bar{
+	background: white;
+    height: 65px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.logo-stuff{
+	margin: auto;
+    vertical-align: middle;
+    line-height: 65px;
+    padding-left: 5%;
+    font-size: 35px;
+}
+#first, #second, #third{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/**columns**/
+#first{
+	position: fixed;
+	height: 100%;
+	width: 40%;
+}
+
+#second{
+	position: relative;
+    float: right;
+    padding-top: 65px;
+    width: 29%;
+    display: block;
+}
+
+#third{
+	position: relative;
+    float: right;
+    padding-top: 65px;
+    width: 29%;
+    display: block;
+    padding-right: 35px;
+}
+
+/**removes space below images**/
+#second img{
+	display:block;
+}
+#third img{
+	display:block;
+}
+
+.hover12 {
+	background: #F5548F;
+}
+.hover12 img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover12:hover img {
+	opacity: 0.7;
+}
+
+
+#window-resizer-tooltip {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    bottom: 0px;
+    right: 0px;
+    color: rgb(204, 204, 204);
+    width: 200px;
+    white-space: nowrap;
+    border-top-left-radius: 10px;
+    background: 10px 10px no-repeat rgba(0, 0, 0, 0.8);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px 0px 5px 40px;
+    font: 11px Tahoma, Verdana, sans-serif;
+}
