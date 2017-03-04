@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
 @font-face {
     font-family: hkgroteskbold;
     src: url(../hk-grotesk/HKGrotesk-Bold.otf);
@@ -35,7 +35,8 @@ body {
 	font-size: 45px;
 	padding-top: 35vh;
 	font-family: Montserrat;
-	letter-spacing: 1.2;
+	font-weight: 700;
+	letter-spacing: 0.05em;
 }
 p.intro{
 	font-size: 16px;
@@ -50,11 +51,11 @@ p {
 }
 
 #nav-bar{
-	background: white;
-    height: 65px;
+    height: 45px;
     position: fixed;
     z-index: 10;
     width: 100%;
+    vertical-align: middle;
 }
 .logo-stuff{
 	margin: auto;
@@ -62,6 +63,22 @@ p {
     line-height: 65px;
     padding-left: 5%;
     font-size: 35px;
+}
+.nav-logo-img{
+	width:auto;
+	height:45px;
+	vertical-align: middle;	
+}
+.nav-links-logo{
+	float:left;
+}
+.nav-links{
+    float: right;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+    font-size: 14px;
 }
 #first, #second, #third{
 	display: inline-block;
@@ -111,6 +128,30 @@ p {
 .hover12:hover img {
 	opacity: 0.7;
 }
+
+/**Navigation Style**/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5em 4em;
+    overflow: hidden;
+    background-color: white;
+    vertical-align: middle;
+}
+
+li a {
+    display: block;
+    color:#4B4099;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    border-bottom: 5px solid #F5548F;
+}
+
+
 
 
 #window-resizer-tooltip {
