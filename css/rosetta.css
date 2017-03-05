@@ -64,12 +64,17 @@ ul.ul-inner-description{
 	letter-spacing: 1px;
 }
 .top-of-section {
-	padding-top: 3em;
+	padding-top: 4em;
 }
 
 /**Business Problem**/
 .rs-problem{
 	width: 100%;
+}
+
+.gif-rosetta{
+	width: 65%;
+	margin-left: 5em;
 }
 
 /**FInal thoughts**/
