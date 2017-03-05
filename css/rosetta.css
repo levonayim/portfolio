@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+@font-face {
+    font-family: proximanova;
+    src: url(../proximanova/ProximaNova-Regular.otf);
+}
+@font-face {
+    font-family: proximanova-bold;
+    src: url(../proximanova/ProximaNova-Bold.otf);
+}
+
+body{
+	font-family: proximanova;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.body-text{
+	font-family: proximanova;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.body-text-final{
+	font-family: proximanova;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+
+.project-cover{
+	width:100%;
+	height: auto;
+}
+
+.project_content{
+	padding: 30px 150px;
+}
+.brief{
+	font-size: 28px;
+	font-family: Montserrat;
+	font-weight: 700; 
+	color: #4B4099;
+	line-height: 1.5;
+	padding: 1em 0;
+}
+
+.table{
+	padding-top: 2em;
+	padding-bottom: 10px;
+	float: left;
+}
+ul.ul-inner-description{
+	padding:0;
+}
+.first-column{
+	width: 45%;
+	float: left;
+}
+ .second-column{
+	width: 45%;
+	float: right;
+ }
+.left-column-description, .right-column-description{
+	margin: 0 0 2em 0;
+	letter-spacing: 1px;
+}
+.top-of-section {
+	padding-top: 3em;
+}
+
+/**Business Problem**/
+.rs-problem{
+	width: 100%;
+}
+
+/**FInal thoughts**/
+.final-thoughts{
+    padding: 20px 70px;
+    background: black;
+    color: white;
+}
