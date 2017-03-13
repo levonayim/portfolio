@@ -156,6 +156,10 @@ li a:hover:not(.active) {
 }
 
 
+.cos-cover{
+    height:33.3vh;
+    width: 100%;
+}
 
 
 #window-resizer-tooltip {
