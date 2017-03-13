@@ -32,7 +32,7 @@ body{
 }
 
 .project_content{
-	padding: 30px 150px;
+	padding: 30px 350px;
 }
 
 .brief{
@@ -83,6 +83,12 @@ ul.ul-inner-description{
     padding: 20px 70px;
     background: black;
     color: white;
+}
+/** huge screen**/
+@media(max-width:1366px){
+	.project_content{
+		padding:30px 150px;
+	}
 }
 
 /**Tablet Size**/
