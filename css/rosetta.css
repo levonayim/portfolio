@@ -32,7 +32,7 @@ body{
 }
 
 .project_content{
-	padding: 30px 150px;
+	padding: 30px 250px;
 }
 
 .brief{
@@ -85,9 +85,9 @@ ul.ul-inner-description{
     color: white;
 }
 /** huge screen**/
-@media(min-width:1520px){
+@media(max-width:1366px){
 	.project_content{
-		padding:30px 250px;
+		padding:30px 150px;
 	}
 }
 
