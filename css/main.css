@@ -67,6 +67,10 @@ p {
 	width:auto;
 	height:45px;
 	vertical-align: middle;	
+    padding: 0;
+}
+.nav-logo-img:hover{
+    text-decoration: none;
 }
 .nav-links-logo{
 	float:left;

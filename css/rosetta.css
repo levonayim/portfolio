@@ -34,6 +34,7 @@ body{
 .project_content{
 	padding: 30px 150px;
 }
+
 .brief{
 	font-size: 28px;
 	font-family: Montserrat;
@@ -82,4 +83,29 @@ ul.ul-inner-description{
     padding: 20px 70px;
     background: black;
     color: white;
+}
+
+/**Tablet Size**/
+@media(max-width: 769px){
+	.project_content{
+		padding: 30px 50px;
+	}
+
+	.first-column{
+		width: 100%;
+	}
+
+	.second-column{
+		width: 100%;
+	}
+}
+
+@media(max-width:448px){
+	.brief{
+		font-size: 18px;
+	}
+
+	ul{
+		padding: 1em;
+	}
 }
