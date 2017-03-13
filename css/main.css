@@ -14,7 +14,7 @@
 	font-family: Helvetica, sans-serif;
 	line-height: 1.4;
 	background-image:url("../img/vancouver-bw.jpg");
-	background-size: auto 100%;
+	background-size: auto 120%;
 
 }
 
@@ -154,12 +154,12 @@ li a {
 li a:hover:not(.active) {
     border-bottom: 5px solid #F5548F;
 }
-
+/*
 
 .cos-cover{
     height:33.3vh;
     width: 100%;
-}
+}*/
 
 
 #window-resizer-tooltip {
