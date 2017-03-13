@@ -84,6 +84,12 @@ ul.ul-inner-description{
     background: black;
     color: white;
 }
+/** huge screen**/
+@media(min-width:1920px){
+	.project_content{
+		padding:30px 250px;
+	}
+}
 
 /**Tablet Size**/
 @media(max-width: 769px){

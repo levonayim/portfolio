@@ -15,6 +15,7 @@
 	line-height: 1.4;
 	background-image:url("../img/vancouver-bw.jpg");
 	background-size: auto 120%;
+    background-attachment: fixed;
 
 }
 
