@@ -85,7 +85,7 @@ ul.ul-inner-description{
     color: white;
 }
 /** huge screen**/
-@media(min-width:1920px){
+@media(min-width:1520px){
 	.project_content{
 		padding:30px 250px;
 	}
