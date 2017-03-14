@@ -139,9 +139,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 1em 4em;
-    overflow: hidden;
     background-color: white;
     vertical-align: middle;
+    height: 100%;
 }
 
 li a {
@@ -155,13 +155,15 @@ li a {
 li a:hover:not(.active) {
     border-bottom: 5px solid #F5548F;
 }
-/*
 
-.cos-cover{
-    height:33.3vh;
-    width: 100%;
-}*/
-
+.minor-link{
+    text-align: left;
+    padding-left: 0;
+    margin-top: -10px;
+}
+.minor-link:hover:not(.active){
+    border-bottom: 0px;
+}
 
 #window-resizer-tooltip {
     display: none;
