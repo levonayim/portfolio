@@ -47,7 +47,7 @@ p.intro{
 
 p {
 	font-size: 1.5em;
-	margin: 30px 0;
+	margin: 5px 0 30px 0;
 }
 
 #nav-bar{
@@ -69,6 +69,7 @@ p {
 	height:45px;
 	vertical-align: middle;	
     padding: 0;
+    box-shadow: none;
 }
 .nav-logo-img:hover{
     text-decoration: none;
@@ -160,6 +161,9 @@ li a:hover:not(.active) {
     text-align: left;
     padding-left: 0;
     margin-top: -10px;
+    color: #F5548F;
+    font-weight: 700;
+    text-decoration: underline;
 }
 .minor-link:hover:not(.active){
     border-bottom: 0px;
