@@ -179,3 +179,43 @@ li a:hover:not(.active) {
     padding: 5px 0px 5px 40px;
     font: 11px Tahoma, Verdana, sans-serif;
 }
+
+
+
+@media(max-width:1080px){
+    #first{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    #second, #third{
+        position: relative;
+        float: right;
+        padding-top: 65px;
+        width: 50%;
+        display: inline-block;
+        padding-right: 0;
+    }
+    .hello{
+        padding-top: 22vh;
+    }
+}
+
+@media(max-width:600px){
+    #first{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    #second, #third{
+        position: relative;
+        float: right;
+        padding-top: 65px;
+        width: 100%;
+        display: inline-block;
+        padding-right: 0;
+    }
+    .hello{
+        padding-top: 22vh;
+    }
+}

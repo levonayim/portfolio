@@ -80,7 +80,7 @@ ul.ul-inner-description{
 
 /**FInal thoughts**/
 .final-thoughts{
-    padding: 20px 70px;
+    padding: 20px 250px;
     background: black;
     color: white;
 }
@@ -88,6 +88,9 @@ ul.ul-inner-description{
 @media(max-width:1367px){
 	.project_content{
 		padding:30px 150px;
+	}
+	.final-thoughts{
+		padding: 20px 150px;
 	}
 }
 
@@ -103,6 +106,10 @@ ul.ul-inner-description{
 
 	.second-column{
 		width: 100%;
+	}
+
+	.final-thoughts{
+		padding: 20px 100px;
 	}
 }
 
