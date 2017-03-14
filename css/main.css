@@ -182,7 +182,7 @@ li a:hover:not(.active) {
 
 
 
-@media(max-width:1080px){
+@media(max-width:1220px){
     #first{
         position: relative;
         height: 100%;
